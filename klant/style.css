@@ -1,0 +1,67 @@
+*
+{
+    margin: 0
+        padding: 0    
+}
+header
+{
+    /* The image used */
+    background-image: url(img/lakers.jpg);
+    
+    /* Full height  */
+    
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   }
+
+ .nav-bar
+{
+    background: rgb(0, 0, 0, 0,5);
+    height: 80px;
+    
+}
+
+.logo 
+{
+    margin: auto;
+    height: auto;
+}
+
+
+.menu
+{
+ float: right;
+ list-style: none;
+ margin: 20px;
+    
+}
+
+.menu li{
+    display: inline-block;
+    margin: 16px 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding:5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid :white;
+    
+
+}
+
+.menu li a:hover{
+    background: white;
+    transition: : .45;
+    color: #000;
+}
+
+
+

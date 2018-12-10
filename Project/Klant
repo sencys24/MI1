@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Tables</title>
+<style>
+    
+    /* this is for opdracht 12 */
+    
+table, th, td {
+  border: 2px solid black;
+  padding : 15px;
+  font-family: sans-serif;
+  background-color: white
+}
+    
+    table {
+        border-spacing: 5px
+    }
+  
+    body
+    {
+        background-color: #24292E
+    }
+    
+</style>
+</head>
+<body>
+    
+    
+<h1 style="color: goldenrod">Vereisten</h1>
+<h2 style="color:goldenrod"><b>INFORMATION</b></h2>
+
+<table style="width:100%">
+    
+  <tr>
+    <td style="color: red">Vereisten</td>
+    <td style="color: red">Heel Belang</td> 
+    <td style="color: red">Belang</td>
+      <td style="color: red">Gevraagd</td>
+  </tr>
+    
+  <tr>
+    <td>Website in het engels</td>
+    <td style="color: red">*</td>
+    <td>-</td>
+  </tr>
+    
+  <tr>
+    <td>Fotos</td>
+    <td style="color: red">*</td>
+    <td>-</td>
+  </tr>
+    
+  <tr>
+    <td>Background image</td>
+    <td style="color: red">*</td>
+    <td>-</td>
+  </tr>
+    
+    <tr>
+    <td>Slide show images</td>
+    <td style="color: red">*</td>
+    <td>-</td>       
+  </tr>
+    
+    <tr>
+    <td>Links</td>
+    <td style="color: red">*</td>
+    <td>-</td>       
+  </tr>
+    
+</table>
+
+</body>
+</html>
